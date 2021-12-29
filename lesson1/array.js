@@ -25,10 +25,8 @@ var courses = [
         coin: 500
     }
 ]
-var i =0;
 function coinHandler(accumulator, currentValue){
-    i++;
-    var total = accumulator+currentValue.coin;
+    var total = accumulator + currentValue.coin;
     return total;
 }
 
