@@ -1,7 +1,23 @@
 // var box1Element = document.getElementsByClassName('heading:first-child')
 // console.log([box1Element])
 
-var h1Element = document.getElementsByTagName('h1')
-var h2Element = document.getElementsByTagName('h2')
-var h3Element = document.getRootNode
-console.log([h2Element])
+var headingElement = document.querySelector('h1');
+
+headingElement.title = 'khong hiểu'
+
+headingElement.setAttribute('href','https://www.facebook.com/')
+
+
+console.log(headingElement.getAttribute('href'))
+
+console.log([headingElement])
+
+
+headingElement.innerText = 'hung tran hoc lập trình'
+
+var h1TagName = headingElement.localName
+
+var h1NextElementSibling = headingElement.nextElementSibling
+
+console.log(h1TagName)
+console.log(h1NextElementSibling)
